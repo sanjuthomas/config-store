@@ -1,0 +1,18 @@
+name: event sourcer
+version: 1.0
+
+vertx.websocket.port: 10001
+vertx.event.bus.root.context: eventbus
+vertx.event.bus.inbound.addesses:
+  - gate-1
+  - gate-2
+
+kafka;
+  bootstrap.servers:
+    - "localhost:9092"
+  client.properties:
+              : acks: all
+              : retries: 3
+              : batch.size: 512
+              : linger.ms: 1
+              : buffer.memory: 2048
