@@ -1,4 +1,4 @@
-kafka;
+kafka:
   bootstrap:
     servers:
       - "dev.dumptherightwing.com:9092"
