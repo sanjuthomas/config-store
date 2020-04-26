@@ -16,6 +16,6 @@ vertx.event.bus.inbound.addesses:
 vertx.event.bus.root.context: eventbus
 vertx.websocket.port: 10001
 
-wi-types:
+tenants:
   - one
   - two
